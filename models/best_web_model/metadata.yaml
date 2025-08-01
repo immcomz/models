@@ -1,0 +1,31 @@
+description: Ultralytics YOLO11n model trained on speed/data.yaml
+author: Ultralytics
+date: '2025-08-02T02:13:39.121214'
+version: 8.3.78
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: speed limit 10
+  1: speed limit 100
+  2: speed limit 110
+  3: speed limit 120
+  4: speed limit 130
+  5: speed limit 20
+  6: speed limit 30
+  7: speed limit 40
+  8: speed limit 50
+  9: speed limit 60
+  10: speed limit 70
+  11: speed limit 80
+  12: speed limit 90
+args:
+  batch: 1
+  half: false
+  int8: false
+  nms: false
